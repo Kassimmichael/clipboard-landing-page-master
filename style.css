@@ -8,16 +8,11 @@
 }
 
 body {
-  background-color: ;
   font-size: 18px;
   background-image: url(./images/bg-header-desktop.png);
   background-position: top;
   background-repeat: no-repeat;
 }
-
-/* section {
-  text-align: center;
-} */
 
 section p {
   color: hsl(201, 11%, 66%);
@@ -53,8 +48,6 @@ button {
 }
 
 button:hover {
-  /* transform: translateY(2px); */
-  /* color: skyblue; */
   box-shadow: 0 10px 20px rgba(0,0,0,0.05), 0 6px 6px rgba(0,0,0,0.40);
 }
 
@@ -73,7 +66,6 @@ button:nth-child(2) {
 
 .track h3 {
   font-size: 26px;
-  /* margin: 0 20%; */
 }
 
 .track p {
@@ -83,7 +75,6 @@ button:nth-child(2) {
 .computer {
   display: flex;
   padding-bottom: 50px;
-  /* align-items: center; */
 }
 
 .computer-right {
@@ -118,7 +109,6 @@ button:nth-child(2) {
   justify-content: space-between;
   align-items: center;
   margin: 30px 150px;
-  /* padding: 30px 90px; */
   line-height: 1.9;
   padding-bottom: 50px;
 }
@@ -151,7 +141,6 @@ footer {
   background-color: hsl(204, 38%, 97%);
   display: flex;
   align-items: center;
-  /* margin: 30px; */
   justify-content: space-between;
   padding: 20px;
 }
@@ -162,7 +151,6 @@ footer img {
 
 .social img {
   padding-right: 10px;
-  /* background-color: hsl(171, 66%, 44%); */
 }
 
 footer .social img:hover {
