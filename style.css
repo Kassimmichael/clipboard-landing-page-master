@@ -178,27 +178,97 @@ footer .social img:hover {
   color: hsl(171, 66%, 44%);
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 940px) {
+  button {
+    margin-top: 12px;
+  }
+}
+
+@media screen and (max-width: 600px) {
 
   section {
     text-align: center;
+    width: 100%;
+    /* padding: 30px; */
   }
   
   header h2 {
-    font-size: 13px;
+    font-size: 20px;
     line-height: 1.6;
   }
   header p {
-    font-size: 7px;
+    font-size: 11px;
     line-height: 1.6;
   }
   button {
     margin-top: 12px;
-    padding: 8px 18px;
+    padding: 8px 30px;
     font-size: 12px;
+    flex-direction: column;
   }
   .track h3 {
-    font-size: 30px;
+    font-size: 22px;
+    text-align: center;
   }
+  .track p {
+    font-size: 12px;
+  }
+  .computer {
+    flex-direction: column;
+    /* width: 100%; */
+    /* text-align: center; */
+  }
+  .computer img {
+    width: 100%;
+  }
+  .computer-right {
+    text-align: center;
+    width: 100%;
+    font-size: 16px;
+    padding-left: 30px;
+  }
+  .computer-right p {
+    font-size: 12px;
+  }
+  .device img {
+    width: 100%;
+  }
+  .device p {
+    font-size: 12px;
+  }
+  .device h3 {
+    font-size: 20px;
+  }
+  .middle {
+    flex-direction: column;
+    /* margin-bottom: 10px; */
+  }
+  .charge {
+    margin-top: 50px;
+    text-align: center;
+  }
+  .charge p {
+    font-size: 12px;
+  }
+  .icon ul {
+    flex-direction: column;
+    gap: 30px;
+    /* text-align: center; */
+  }
+  footer {
+    /* display: flex; */
+    width: 100%;
+  }
+  .footer1 {
+    flex-direction: column;
+    text-align: center;
+  }
+  .footer1 img {
+    text-align: center;
+  }
+  .footer1 ul {
+    margin-top: 20px;
+  }
+
 }
 
