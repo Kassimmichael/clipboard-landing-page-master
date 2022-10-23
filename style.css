@@ -177,3 +177,28 @@ footer .social img:hover {
 .footer1 li:hover {
   color: hsl(171, 66%, 44%);
 }
+
+@media screen and (max-width: 375px) {
+
+  section {
+    text-align: center;
+  }
+  
+  header h2 {
+    font-size: 13px;
+    line-height: 1.6;
+  }
+  header p {
+    font-size: 7px;
+    line-height: 1.6;
+  }
+  button {
+    margin-top: 12px;
+    padding: 8px 18px;
+    font-size: 12px;
+  }
+  .track h3 {
+    font-size: 30px;
+  }
+}
+
